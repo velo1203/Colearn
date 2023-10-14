@@ -5,8 +5,8 @@ const app = express();
 // 리액트 정적 파일 제공
 app.use(express.static(path.join(__dirname, './build')));
 
-app.listen(3100, function () {
-  console.log('listening on 3100')
+app.listen(10208, "0.0.0.0", function () {
+  console.log('listening on 10208');
 }); 
 
 // 모든 경로에 대해 index.html 반환
