@@ -6,7 +6,7 @@ import json
 hash_token = HashToken()
 
 #judge server URL
-url = "http://learnsteam.kr:8080/judge"
+url = "https://js.codingschool.co.kr/judge"
 
 #언어 config설정
 #칭따오 서버의 python버전이 3.6으로 바뀌었음
