@@ -1,0 +1,141 @@
+.registerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #f2f3f7;
+    border-radius: 5px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.backBtn {
+    color: #718ffb;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.backBtn:hover {
+    opacity: 0.7;
+}
+
+.registerTitle {
+    color: #3461ff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    color: #A4B2CB;
+    font-size: 32px;
+    transition: all 0.2s;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+
+.registerInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f2f3f7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #a4b2cb;
+    outline: none;
+}
+
+.registerInput::placeholder {
+    color: #a4b2cb;
+}
+
+.registerBtn {
+    padding: 10px;
+    background-color: #3461ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.registerBtn:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separatorText {
+    color: #a4b2cb;
+    margin: 0 10px;
+}
+
+.policy{
+
+    display: flex;
+    gap: 5px;;
+    margin: 5px;
+    color: #3461FF;
+}
+.policy > p{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.policy > p:hover{
+    opacity: 0.7;
+}
+.policy > input{
+    width: 20px;
+    accent-color: #3461ff;
+}
+
+@media screen and (max-width: 767px) {
+    .registerContainer {
+        width: 90%;
+        border: none;
+        background-color: #00000000;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .registerContainer {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .registerContainer {
+        width: 400px;
+    }
+}

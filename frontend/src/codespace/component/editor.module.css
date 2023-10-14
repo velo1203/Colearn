@@ -1,0 +1,90 @@
+.codeEditorContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 2px solid #F2F3F7;
+    padding: 20px;
+}
+
+.editorMenu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.menuButton {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.menuButton:hover {
+    opacity: 0.8;
+}
+
+.menuDelete {
+    background-color: rgb(255, 88, 88);
+}
+.menuCopy {
+    background-color: #3461FF;
+}
+.menuOpenfile {
+    background-color: #3461FF;
+}
+.menuSubmit {
+    background-color: rgb(36, 155, 0);
+}
+.ResultContainer{
+    height: 250px;
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px solid #F2F3F7;
+    background-color: #FAFCFE;
+    border-radius: 5px;
+    color: #A4B2CB;
+}
+
+.OuputLabel{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.ResultGreen{
+    color: rgb(33, 214, 33);
+}
+
+.ResultRed{
+    color: rgb(253, 108, 108);
+}
+
+@media screen and (max-width: 768px) {
+  .codeEditorContainer {
+    padding: 15px;
+  }
+
+  .editorMenu {
+    margin-bottom: 15px;
+  }
+
+  .menuButton {
+    padding: 8px;
+    margin-left: 5px;
+  }
+
+  .ResultContainer{
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .OuputLabel{
+    font-size: 16px;
+    margin: 4px;
+  }
+}

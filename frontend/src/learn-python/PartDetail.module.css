@@ -1,0 +1,18 @@
+.pdfContainer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.LinktoProblem{
+    margin-top: 25px;
+    color: #3461FF;
+    transition: all 0.2s;
+}
+
+.LinktoProblem:hover{
+    opacity: 0.8;
+}
+.MarkdownPart{
+    margin-top: 25px;
+}

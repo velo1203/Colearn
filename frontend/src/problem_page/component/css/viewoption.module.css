@@ -1,0 +1,30 @@
+.viewoptions {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    color: #A4B2CB;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.viewoption{
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    border-bottom: 3px solid #3460ff00;
+}
+
+.view-on {
+    color: #3461FF;
+    border-bottom: 3px solid #3461FF;
+}
+
+.viewoptions > li:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 762px) {
+    .viewoptions {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,36 @@
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #3461ff;
+  }
+  
+  .errorCode {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .errorMessage {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .goBackButton {
+    background-color: #3461ff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s;
+  }
+  
+  .goBackButton:hover {
+    opacity: 0.8;
+  }
+  

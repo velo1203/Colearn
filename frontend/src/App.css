@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: lighter;
+}
+
+.Loading{
+  color: #A4B2CB;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  align-items: center;
+  animation: loading 1s infinite;
+}
+.LoadingContainer{
+  text-align: center;
+}
+.LoadingContainer > h4{
+  font-size: 40px;
+  color: #3461FF;
+}
+
+@keyframes loading {
+0% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
+}

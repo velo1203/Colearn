@@ -1,0 +1,90 @@
+/* CodeSpace Container */
+.csContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 50px;
+  height: 100%;
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+/* 문제 제목 */
+.csTitle {
+  font-size: 1.5rem;
+  color: #3461FF;
+}
+
+/* 문제 설명 */
+.csDescription {
+  font-size: 1.3rem;
+  color: #A4B2CB;
+}
+
+.csId{
+  color: #A4B2CB;
+}
+
+/* 예시 입력/출력 컨테이너 */
+.csExampleIO {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* 예시 입력/출력 쌍 */
+.csExamplePair {
+  display: flex;
+}
+
+.cxExampleBox {
+  width: 100%;
+}
+
+.csExampleLabel {
+  color: #3461FF;
+  font-size: 18px;
+}
+
+/* 예시 */
+.csExampleInput,
+.csExampleOutput {
+  margin: 15px;
+  color: #A4B2CB;
+  background-color: #F0F2F5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .csContainer {
+    padding: 25px;
+    width: 90%;
+  }
+
+  .csTitle {
+    font-size: 1.2rem;
+  }
+
+  .csDescription {
+    font-size: 1.1rem;
+  }
+
+  .csExampleIO {
+    padding-top: 10px;
+  }
+
+  .csExampleLabel {
+    font-size: 16px;
+  }
+
+  .csExampleInput,
+  .csExampleOutput {
+    margin: 10px;
+    padding: 0.8rem;
+  }
+}

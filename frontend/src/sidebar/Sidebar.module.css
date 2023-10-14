@@ -1,0 +1,42 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    background-color: #FAFCFE;
+    padding-top: 160px;
+    border-right: 2px solid #F2F3F7;
+}
+
+.sidebarLink {
+    padding: 25px 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #A4B2CB;
+    font-size: 20px;
+    border-left: 5px solid rgba(0, 0, 0, 0);
+}
+
+.sidebarOn {
+    border-left: 5px solid #3461FF;
+    color: #3461FF;
+}
+
+.sidebarLink:hover {
+    background-color: #f1f1f1;
+    opacity: 0.7;
+}
+
+.sidebarOn:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        display: none;
+    }
+}

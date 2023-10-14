@@ -1,0 +1,42 @@
+.PartListContainer{
+   width: 100%;
+    
+}
+
+.PartListBox{
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.PartListTitle{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #3461FF;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #a4b2cb30;
+}   
+.PartList{
+    margin-top: 50px;
+}
+
+.PartItem{
+    cursor: pointer;
+    height: 50px;
+    width: 80%;
+    max-width: 800px;
+    align-items: center;
+    display: flex;
+    border: 2px solid #F2F3F7;
+    padding:0px 25px;
+    justify-content: space-between;
+}
+
+
+.PartItemTitle{
+    margin-right: 25px;
+    color: #3461FF;
+}
+.PartItemId{
+    color: #A4B2CB;
+}

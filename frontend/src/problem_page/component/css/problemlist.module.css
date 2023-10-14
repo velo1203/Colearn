@@ -1,0 +1,98 @@
+.noproblem{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #A4B2CB;
+}
+
+.table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid #F2F3F7;
+}
+
+
+
+.tableHead {
+    font-size: 16px;
+    color: #A4B2CB;
+    background-color: #F3F9FF;
+    height: 40px;
+    font-size: 17px;
+}
+
+.table td,
+.table th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #F2F3F7;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.tableBody > tr {
+    cursor: pointer;
+    height: 50px;
+}
+
+.tableTitle {
+    color: #3461FF;
+    font-size: 16px;
+}
+
+.tableTitle:hover {
+    opacity: 0.7;
+}
+
+.tableDescription,
+.tableId {
+    color: #A4B2CB;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 8ch;
+}
+.solvedBadge {
+    font-size: 17px;
+    vertical-align:sub;
+    color: rgb(52, 223, 52);
+    margin-left: 5px;
+  }
+
+@media screen and (max-width: 768px) {
+    .noproblem {
+        font-size: 20px;
+    }
+
+    .table {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .tableHead {
+        font-size: 14px;
+    }
+
+    .table td,
+    .table th {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .tableBody > tr {
+        height: 40px;
+    }
+
+    .tableTitle {
+        font-size: 14px;
+    }
+
+    .tableDescription,
+    .tableId {
+        max-width: 6ch;
+    }
+}

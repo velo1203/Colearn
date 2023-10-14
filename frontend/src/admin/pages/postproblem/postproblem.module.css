@@ -1,0 +1,256 @@
+/* admin.module.css */
+
+.postproblem {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #F2F3F7;
+    color: #6a6a6a;
+    appearance: none; /* 이것은 브라우저의 기본 select 스타일을 제거합니다. */
+}
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.probleminfo {
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #A4B2CB;
+    margin-bottom: 10px;
+}
+
+.label {
+    margin-bottom: 5px;
+    color: #A4B2CB;
+}
+
+.testCaseBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testCaseGroup {
+    margin-top: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ShowCase, .HiddenCase {
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.CaseTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #6a6a6a;
+}
+
+.CaseInputBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Caseinput {
+    margin-right: 35px;
+    flex-grow: 1;
+}
+
+.Caseinput > input, label {
+    margin-right: 15px;
+}
+
+.Caseinput > input {
+    width: 100%;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #3461FF;
+    box-shadow: 2px 4px 4px rgba(0, 68, 255, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2c52cc;
+}
+
+.DeleteButton {
+    padding: 10px;
+    width: 80px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #ff6666;
+    box-shadow: 2px 4px 4px rgba(255, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.DeleteButton:hover {
+    background-color: #cc4c4c;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.modelAnswerInputbox {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+    resize: vertical;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.modelAnswerInput {
+    margin-top: 15px;
+}
+
+
+.submit{
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+    background-color: rgb(36, 155, 0);
+}
+
+.submit:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .inputGroup {
+        gap: 20px;
+    }
+
+    .testCaseBox {
+        gap: 15px;
+    }
+
+    .CaseInputBox {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px 0;
+    }
+
+    .form {
+        gap: 20px;
+    }
+
+    .probleminfo {
+        padding: 10px;
+    }
+
+    .input {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .ShowCase,
+    .HiddenCase {
+        padding: 15px;
+    }
+
+    .CaseTitle {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .Caseinput {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .Caseinput > input,
+    label {
+        margin-right: 8px;
+        font-size: 14px;
+    }
+
+    .button,
+    .DeleteButton {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .options {
+        gap: 10px;
+    }
+
+    .modelAnswerInputbox {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .submit {
+        padding: 8px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}

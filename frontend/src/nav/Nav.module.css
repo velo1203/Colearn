@@ -1,0 +1,48 @@
+.nav {
+    width: 100%;
+    border-bottom: 2px solid #F2F3F7;
+    position: fixed;
+    background-color: #FAFCFE;
+    z-index: 2;
+}
+
+.navContainer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navLogo {
+    font-size: 25px;
+    color: #3461FF;
+    cursor: pointer;
+}
+
+.navList {
+    display: flex;
+    color: #A4B2CB;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navList li {
+    margin-left: 65px;
+    transition: all 0.2s;
+}
+
+.navList li:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 762px) {
+    .navLogo {
+        font-size: 17px;
+    }
+    .navList li {
+        font-size: 15px;
+    }
+}

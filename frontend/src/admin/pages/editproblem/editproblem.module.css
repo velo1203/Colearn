@@ -1,0 +1,196 @@
+.noproblem {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #A4B2CB;
+}
+.label {
+    margin-bottom: 5px;
+    color: #A4B2CB;
+}
+.select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #F2F3F7;
+    color: #6a6a6a;
+    appearance: none; /* 이것은 브라우저의 기본 select 스타일을 제거합니다. */
+}
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+}
+.eidtproblem {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.TopproblemBar {
+    padding: 15px;
+    color: #A4B2CB;
+}
+.problemBar {
+    border: 2px solid #F2F3F7;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #A4B2CB;
+    background-color: rgb(253, 253, 253);
+}
+
+.probleminfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.problemTitle {
+    font-size: 18px;
+    color: #3461FF;
+}
+.problemDescription {
+    white-space: nowrap;
+    /* Text will not wrap into a new line */
+    overflow: hidden;
+    /* Ensures the text is clipped */
+    text-overflow: ellipsis;
+    /* Render '...' to represent clipped text */
+    max-width: 400px;
+    /* Set your own value */
+}
+
+
+.button {
+    box-shadow: 0 5px 15px #3460ff10;
+    font-weight: bold;
+    color: #3461FF;
+    padding: 8px 15px;
+    background-color: white;
+    border: 1px solid #3461FF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button:hover {
+    opacity: 0.8;
+    background-color: #e7ecff;
+}
+
+.problemedit {
+    margin-top: 15px;
+}
+
+.editcontainer {
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 15px #1900ff09;
+    background-color: white;
+}
+
+.editcontainer h4 {
+    font-size: 18px;
+    color: #3461FF;
+    margin-bottom: 10px;
+}
+
+.testcase {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testcaseinput {
+    font-size: 16px;
+    color: #828c9e;
+    margin-bottom: 5px;
+}
+
+.editInput {
+    padding: 8px 10px;
+    border: 1px solid #e5e5e5;
+    margin: 5px 0;
+}
+
+.menucontainer {
+    padding: 5px 15px;
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px 0;
+    }
+    .TopproblemBar{
+        display: none;
+    }
+    .probleminfo {
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .problemDescription {
+        max-width: 100%;
+    }
+
+    .problemedit {
+        margin-top: 10px;
+    }
+
+    .editcontainer {
+        padding: 15px;
+    }
+
+    .testcaseinput {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px 0;
+    }
+
+    .problemTitle {
+        font-size: 16px;
+    }
+
+    .problemDescription {
+        max-width: 200px;
+    }
+
+    .editcontainer {
+        margin-top: 10px;
+    }
+
+    .testcase {
+        padding: 8px;
+    }
+
+    .testcaseinput {
+        font-size: 12px;
+    }
+
+    .editInput {
+        padding: 6px 8px;
+    }
+}
