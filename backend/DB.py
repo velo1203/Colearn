@@ -189,7 +189,6 @@ def DB_solve_problem(useremail, problemID):
     user_data = list(users.values())[0]
     user_id = list(users.keys())[0]
 
-    # Check if the problem is already solved
     solved_problem_list = user_data.get('solved_problem', [])
     if problemID not in solved_problem_list:
         # If the problem is not solved, increment problem count
