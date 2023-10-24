@@ -28,7 +28,13 @@ const PartDetail = () => {
                     <div className={styles.MarkdownPart}>
                     <Viewer initialValue={partData.markdownContent} />
                     </div>
-                    {partData.problemId && <p className={styles.LinktoProblem} onClick={()=>{navigate(`/codespace/${partData.problemId}`)}}>문제풀러가기</p>}
+                    <p className={styles.LinktoProblem}>문제풀러가기</p>
+                    {partData.problemId && (
+                    <div className={styles.Linkto} onClick={()=>{navigate(`/codespace/${partData.problemId}`)}}>
+
+                            <p className={styles.LinktoProblem}>문제풀러가기</p>
+                    </div>
+                    )}
                 </>
             ) : (
                 <p>Loading...</p>

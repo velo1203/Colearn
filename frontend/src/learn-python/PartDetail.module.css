@@ -4,13 +4,24 @@
     padding-top: 50px;
 }
 
-.LinktoProblem{
-    margin-top: 25px;
-    color: #3461FF;
+.Linkto{
+    width: 100%;
+    height: 50px;
+    background-color: #3461FF;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
-.LinktoProblem:hover{
+.LinktoProblem{
+    font-size: 20px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.Linkto:hover{
     opacity: 0.8;
 }
 .MarkdownPart{
