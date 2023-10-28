@@ -4,7 +4,7 @@
 
 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/MdeQ8oB0Hgs/0.jpg)](http://www.youtube.com/watch?v=MdeQ8oB0Hgs "Video Title")
+[![유튜브링크](http://img.youtube.com/vi/MdeQ8oB0Hgs/0.jpg)](http://www.youtube.com/watch?v=MdeQ8oB0Hgs "Video Title")
 
 
 
