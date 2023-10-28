@@ -1,7 +1,13 @@
 # Colearn 🐍
 
 **Colearn**은 파이썬 학습을 도와주는 온라인 저지 웹서비스입니다.
+
+
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/MdeQ8oB0Hgs/0.jpg)](http://www.youtube.com/watch?v=MdeQ8oB0Hgs "Video Title")
+
+
+
 
 ## 주요 특징 🌟
 
