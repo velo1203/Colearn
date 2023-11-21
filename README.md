@@ -2,6 +2,13 @@
 
 **Colearn**은 파이썬 학습을 도와주는 온라인 저지 웹서비스입니다.
 
+
+
+[![유튜브링크](http://img.youtube.com/vi/MdeQ8oB0Hgs/0.jpg)](http://www.youtube.com/watch?v=MdeQ8oB0Hgs "Video Title")
+
+
+
+
 ## 주요 특징 🌟
 
 - **마크다운 교과서**: 파이썬에 대한 기본적인 내용부터 고급 튜토리얼까지, 마크다운 형식으로 작성된 교과서를 통해 학습할 수 있습니다.
