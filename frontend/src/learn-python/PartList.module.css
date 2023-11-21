@@ -21,6 +21,7 @@
 }
 
 .PartItem{
+    margin-top:10px;
     cursor: pointer;
     height: 50px;
     width: 80%;

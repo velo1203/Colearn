@@ -10,7 +10,7 @@ services:
     env_file:
       - ./backend/judge/.env  # .env 파일을 여기에 추가
     volumes:
-      - ./backend/key.json:/app/key.json  # 호스트 머신의 backend/key.json 파일을 컨테이너 내부의 /app/key.json으로 마운트
+      - ./backend/key.json:/app/key.json  #backend/key.json 파일을 컨테이너 내부의 /app/key.json으로 마운트
   node-app:
     build:
       context: ./deploy-fe

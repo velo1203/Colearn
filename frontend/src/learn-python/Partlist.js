@@ -9,7 +9,8 @@ const PartList = () => {
     useEffect(() => {
         axios.get('/parts', { withCredentials: true })
             .then((response) => {
-                setParts(response.data.parts);
+                const sortedParts = response.data.parts.sort((a, b) => a.order - b.order);
+                setParts(sortedParts);
             })
             .catch((error) => {
                 console.error('교재 데이터를 가져오는데 실패했습니다:', error);
